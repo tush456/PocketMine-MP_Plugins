@@ -1,0 +1,127 @@
+---
+groups:
+  Default:
+    default: true
+    permissions:
+      - say
+      - help
+      - list
+      - spawn
+      - lag
+      - logout
+      - login
+    info:
+      prefix: '[Newbie] '
+      build: false
+      suffix: ' '
+  People:
+    default: false
+    permissions:
+      - say
+      - help
+      - back
+      - home
+      - sethome
+      - delhome
+      - clear
+      - list
+      - spawn
+      - lag
+      - tell
+      - logout
+      - login
+    info:
+      prefix: '[People] '
+      build: true
+      suffix: ' '
+  Moderator:
+    default: false
+    permissions:
+      - say
+      - help
+      - back
+      - home
+      - sethome
+      - delhome
+      - mute
+      - tree
+      - clear
+      - status
+      - seed
+      - list
+      - kill
+      - gamemode
+      - tp
+      - spawnpoint
+      - spawn
+      - lag
+      - time
+      - banip
+      - ban
+      - kick
+      - whitelist
+      - sudo
+      - give
+      - tell
+      - me
+      - logout
+      - login
+      - password
+    info:
+      prefix: '[Moderator] '
+      build: true
+      suffix: ' '
+  Admin:
+    default: false
+    permissions:
+      - say
+      - help
+      - back
+      - home
+      - sethome
+      - delhome
+      - mute
+      - tree
+      - clear
+      - stop
+      - status
+      - invisible
+      - difficulty
+      - defaultgamemode
+      - seed
+      - save-all
+      - save-on
+      - save-off
+      - list
+      - kill
+      - gamemode
+      - tp
+      - spawnpoint
+      - spawn
+      - lag
+      - time
+      - banip
+      - ban
+      - kick
+      - whitelist
+      - op
+      - deop
+      - sudo
+      - give
+      - tell
+      - me
+      - logout
+      - login
+      - password
+      - manuadd
+      - manudel
+      - manwhois
+      - mangadd
+      - mangdel
+      - listgroups
+      - mansave
+      - manload
+    info:
+      prefix: '[Admin] '
+      build: true
+      suffix: ' '

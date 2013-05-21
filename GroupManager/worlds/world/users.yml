@@ -1,0 +1,8 @@
+---
+users:
+  Jejo:
+    group: Admin
+    permissions: [ ]
+  GaLaXy:
+    group: Admin
+    permissions: [ ]
